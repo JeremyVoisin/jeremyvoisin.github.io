@@ -28,7 +28,7 @@ twitter_username: _JeremyVoisin_
 github_username:  JeremyVoisin
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
