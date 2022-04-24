@@ -22,14 +22,16 @@ title: Blog de Jérémy Voisin
 email: voisin.jeremy@outlook.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Un gars de l'IT, qui écrit pour partager la passion
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jeremyvoisin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: _JeremyVoisin_
 github_username:  JeremyVoisin
 
 # Build settings
 theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
+  - jekyll-remote-theme 
   - jekyll-feed
 
 # Exclude from processing.
